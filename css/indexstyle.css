@@ -130,7 +130,7 @@ input{
 }
 
 html {
-    background-image: url(/Pics/first.png);
+    background-image: url(/img/first.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

@@ -17,14 +17,14 @@
     padding-right: 5%;
     background-color: rgba(26, 26, 26, 0.7);
     border-radius: 10%;
-    margin-top: 20%;
     display: block;
     margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
 
 }
 
 .second{
-    vertical-align: middle;
     display: inline-block;
     margin-bottom: auto;
     margin-top: auto;
@@ -83,7 +83,7 @@
 
 
 html {
-    background-image: url(/Pics/first.png);
+    background-image: url(/img/first.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
