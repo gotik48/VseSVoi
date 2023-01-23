@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'InterBold';
+    src: url(../fonts/InterBold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'InterBlack';
+    src: url(../fonts/InterBlack.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.first{
+    padding-left: 8%;
+    padding-right: 5%;
+    background-color: rgba(26, 26, 26, 0.7);
+    border-radius: 10%;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.second{
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.title1{
+    color: white;
+    font-family: InterBlack;
+    text-align: center;
+    font-size: 64px;
+}
+
+.text1{
+    color: white;
+    font-family: InterBold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.rule_title{
+    color: white;
+    font-family: InterBlack;
+    font-size: 40px;
+}
+
+.rules{
+    color: white;
+    font-family: InterBold;
+    font-size: 28px;
+}
+
+.help{
+    color: white;
+    font-family: InterBold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.login-form input{
+    font-family: InterBold;
+    text-transform: uppercase;
+    background-color: rgba(252, 105, 3, 0.4);
+    border: 5px;
+    border-color: #f2f2f2;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+html {
+    background-image: url(/Pics/first.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
