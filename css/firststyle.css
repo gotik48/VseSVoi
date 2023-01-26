@@ -71,9 +71,19 @@
     font-size: 36px;
 }
 
+.putdata{
+    outline: 3px;
+    background: #f2f2f2;
+    border: 20px orange;
+    margin: 0 0 15px;
+    padding: 25px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: InterBold;
+}
 
-
-.login-form input {
+.buttonent {
     font-family: InterBold;
     text-transform: uppercase;
     background-color: rgb(252, 105, 3);

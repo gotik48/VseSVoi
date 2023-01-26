@@ -2,7 +2,6 @@ function Input(){
     login_ok = false;
     user_name = "";
     password = "";
-    user_name = prompt("Введите ЛОГИН","");           // Второй параметр ПУСТОЙ(!) - значение получаем от пользователя
     user_name = user_name.toLowerCase();      // Переводит введённое в нижний регистр (можно вводить по-любому)
     password = prompt("Введите ПАРОЛЬ","");           // Второй параметр ПУСТОЙ(!) - значение получаем от пользователя
     password = password.toLowerCase();
