@@ -1,3 +1,4 @@
+
 function Input(){
     login_ok = false;
     var data1 = document.getElementsByName("inputdata1")[0].value;

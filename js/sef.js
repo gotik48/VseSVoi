@@ -13,3 +13,10 @@ function Input(){
         window.location = "jssite/index.html";}             // КУДА? Перебросит нас скрипт
     if (login_ok == false) {
         alert("Неверный логин или пароль!");}}     // КОНЕЦ ПАРОЛЬНОГО ВХОДА
+
+$(document).ready(function(){
+    $('inputdata1').keypress(function(e){
+        if(e.keyCode==13)
+            Input();
+    });
+});
