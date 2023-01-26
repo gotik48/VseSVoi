@@ -12,15 +12,15 @@ function Input() {
 
     if (data1 == "5" && data2 == "КИМЧИ" && data3 == "РУКИ") {
         login_ok = true;
-        window.location = "rules.html";
+        window.location = "qrforglobefifthsatellite.html";
     }
     if (data1 == "5" && data2 == "КИМЧИ" && data3 == "РУКА") {
         login_ok = true;
-        window.location = "rules.html"
+        window.location = "qrforglobefifthsatellite.html"
     }
     if (data1 == "5" && data2 == "КИМЧИ" && data3 == "РУКАМИ") {
         login_ok = true;
-        window.location = "rules.html";
+        window.location = "qrforglobefifthsatellite.html";
     }
 
     if (login_ok == false) {

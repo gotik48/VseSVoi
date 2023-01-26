@@ -3,7 +3,7 @@ function Input(){
     var data1 = document.getElementsByName("inputdata1")[0].value;
     data1 = data1.toUpperCase();
 
-    if (data1 == "128") {
+    if (data1 == "4") {
         login_ok=true;
         window.location = "qrforfoodfourthinputs.html";}             // КУДА? Перебросит нас скрипт
     if (login_ok == false) {

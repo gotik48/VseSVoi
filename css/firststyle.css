@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'InterBold';
-    src: url(../fonts/InterBold.otf);
+    src: url(/fonts/InterBold.otf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'InterBlack';
-    src: url(../fonts/InterBlack.otf);
+    src: url(/fonts/InterBlack.otf);
     font-style: normal;
     font-weight: normal;
 }
